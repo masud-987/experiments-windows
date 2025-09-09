@@ -1,4 +1,4 @@
-from ..src.ordered_array_linear import linear_search
+from src.ordered_array_linear import linear_search
 
 def test_linear_search():
     assert linear_search([3,14,35,50,75,101,202], 22) == -1
